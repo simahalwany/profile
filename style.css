@@ -1,0 +1,76 @@
+h1{
+  font-family: Helvetica;
+  color:#96E2FD;
+  letter-spacing: 5px;
+}
+p{
+  font-family: Helvetica;
+  color:#595F7B;
+  font-weight: bold;
+}
+h2{
+   font-family: Helvetica;
+   color:#96E2FD;
+}
+body{
+  background-image: url('https://media.giphy.com/media/uXR9GpSKyj60w/giphy.gif');
+  background-size: cover;
+  height: 100vh;
+    padding:0;
+    margin:0;
+}
+.btn-rainbow{
+  color:white;
+  text-decoration: none;
+  font-family: Helvetica;
+  padding: 10px 15px;
+  border-radius: 4px;
+  background-color: #F6C6C1;
+  font-weight:bold;
+}
+.btn-rainbow:hover{
+  background-color: #C4BFFA
+}
+.fab{
+color:#F6C6C1;
+font-size:50px;
+}
+.fab:hover{
+color:#C4BFFA;
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.card{
+background: white;
+padding: 40px;
+border-radius: 4px;
+box-shadow: 0 5px 10px;
+margin: 20px 0px;
+text-align:center;
+}
+.image-circle{
+  border-radius: 100%;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
